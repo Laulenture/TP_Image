@@ -1,0 +1,61 @@
+object Form1: TForm1
+  Left = 634
+  Height = 520
+  Top = 117
+  Width = 300
+  Caption = 'TP Image 1'
+  ClientHeight = 520
+  ClientWidth = 300
+  LCLVersion = '1.8.2.0'
+  object Ipicture: TImage
+    Left = 0
+    Height = 300
+    Top = 0
+    Width = 300
+  end
+  object BCarreNoir: TButton
+    Left = 0
+    Height = 25
+    Top = 300
+    Width = 300
+    Caption = 'Carré noir'
+    OnClick = BCarreNoirClick
+    TabOrder = 0
+  end
+  object BCarreRouge: TButton
+    Left = 0
+    Height = 25
+    Top = 325
+    Width = 300
+    Caption = 'Carré rouge'
+    OnClick = BCarreRougeClick
+    TabOrder = 1
+  end
+  object B4carre: TButton
+    Left = 0
+    Height = 25
+    Top = 350
+    Width = 300
+    Caption = 'Quatre carrés'
+    OnClick = B4carreClick
+    TabOrder = 2
+  end
+  object Bbandes: TButton
+    Left = 0
+    Height = 25
+    Top = 375
+    Width = 300
+    Caption = 'Bandes de couleur'
+    OnClick = BbandesClick
+    TabOrder = 3
+  end
+  object Bechiquier: TButton
+    Left = 0
+    Height = 25
+    Top = 400
+    Width = 300
+    Caption = 'Echiquier'
+    OnClick = BechiquierClick
+    TabOrder = 4
+  end
+end

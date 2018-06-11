@@ -1,0 +1,76 @@
+object Form1: TForm1
+  Left = 609
+  Height = 673
+  Top = 111
+  Width = 339
+  Caption = 'Form1'
+  ClientHeight = 673
+  ClientWidth = 339
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object Bpixel: TButton
+    Left = 0
+    Height = 33
+    Top = 512
+    Width = 339
+    Caption = 'PIXELISATION'
+    OnClick = BpixelClick
+    TabOrder = 0
+  end
+  object Ipicture: TImage
+    Left = 0
+    Height = 511
+    Top = 0
+    Width = 339
+  end
+  object Breset: TButton
+    Left = 0
+    Height = 33
+    Top = 640
+    Width = 339
+    Caption = 'RESET'
+    OnClick = FormCreate
+    TabOrder = 1
+  end
+  object Bsuperpos: TButton
+    Left = 0
+    Height = 33
+    Top = 576
+    Width = 339
+    Caption = 'SUPERPOSITION'
+    OnClick = BsuperposClick
+    TabOrder = 2
+  end
+  object Bmasque: TButton
+    Left = 0
+    Height = 33
+    Top = 608
+    Width = 339
+    Caption = 'MASQUE'
+    OnClick = BmasqueClick
+    TabOrder = 3
+  end
+  object Bmorphing: TButton
+    Left = 0
+    Height = 33
+    Top = 544
+    Width = 339
+    Caption = 'MORPHING'
+    OnClick = BmorphingClick
+    TabOrder = 4
+  end
+  object Itemp1: TImage
+    Left = 8
+    Height = 17
+    Top = 8
+    Width = 18
+    Visible = False
+  end
+  object Itemp2: TImage
+    Left = 32
+    Height = 17
+    Top = 8
+    Width = 18
+    Visible = False
+  end
+end
